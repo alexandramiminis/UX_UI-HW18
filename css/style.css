@@ -1,0 +1,315 @@
+.inline-block {
+  display: inline-block;
+  margin-left: 120px;
+  padding-left: 15px;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 53px;
+  }
+  .logo {
+  margin-left: 90px;
+  margin-top: 48px;
+  margin-bottom: 40px;
+  padding: 1%;
+  }
+  .nav {
+  width: 73%;
+  padding: 1%;
+  }
+  .ul {
+  width: 50%;
+  }
+.jumbotron {
+position: absolute;
+height: 300px;
+width: 100%;
+background-color: #4F4E4E;
+}
+#head1 {
+margin-top: 0px;
+margin-left: auto;
+color: white;
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: lighter;
+font-size: 34px;
+line-height: 42px;
+}
+#head2 {
+  text-align: center;
+  color: white;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 64px;
+  line-height: 42px;
+}
+#head3 {
+  text-align: right;
+  margin-right: auto;
+  color: white;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 34px;
+  line-height: 42px;
+}
+#portrait {
+display: flex;
+justify-content: center; 
+margin-top: 100px;
+}
+.aboutme {
+display:flex;
+margin-top: 300px;
+margin-left: 40px;
+padding: 20px;
+}
+.aboutmetext {
+float: right;
+margin-left: 100px;
+margin-right: 40px;
+margin-top: 35px;
+font-family: Roboto Mono;
+font-style: lighter;
+font-size: 30px;
+line-height: 40px;
+
+color: #000000;
+}
+.hobbylayout {
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+.imagelineup {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 45px;
+}
+.linksection {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  margin-top: 20px;
+  }
+  .flexlink {
+    display:inline-flex;
+    margin-right: 40px;
+    margin-left: 800px;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+  }
+  .button {
+    display:inline-flex;
+    margin-right: 60px;
+    margin-top: 10px;
+    width: 196px;
+    height: 72px;
+    left: 1151px;
+    top: 1329px;
+    background: #BDBDBD;
+    border: 1px solid #FDEF88;
+  }
+  .buttontext {
+    display:inline-block;
+    padding: 15px;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+  }
+  .buttonimage {
+  float: right;
+  padding: 3px;
+  }
+  .orangepuzzle {
+  margin-top: 2px;
+  }
+  .skillsection {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 90px;
+  }
+  .workintro {
+    display:flex;
+    margin-top: 100px;
+    height: 300px;
+    color: white;
+    font-family: Roboto Mono;
+    font-style: lighter;
+    background:#4F4E4E;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+ 
+
+  h3 {
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .workGrid {
+    display: grid;
+    align-content: space-between;
+    grid-template-columns: [line1] 50% [line2] 50%;
+    grid-template-rows: [line3] 1fr [line4] 1fr [line5] 1fr;
+
+   } 
+   
+   .item1 {
+    grid-column-start: line1;
+    grid-column-end: line2;
+    grid-row-start: line3;
+    grid-row-end: line4;
+    justify-self: center;
+    align-self: center;
+   }
+   
+   .item2 {
+    grid-column-start: line2;
+    grid-column-end: line2;
+    grid-row-start: line3;
+    grid-row-end: line4;
+    justify-self: center;
+    align-self: center;
+    margin-right: 50px;
+    
+   }
+
+   .item3 {
+    grid-column-start: line1;
+    grid-column-end: line2;
+    grid-row-start: line4;
+    grid-row-end: line5;
+    justify-self: center;
+    align-self: center;
+   }
+
+   .item4 {
+    grid-column-start: line2;
+    grid-column-end: line2;
+    grid-row-start: line4;
+    grid-row-end: line5;
+    justify-self: center;
+    align-self: center;
+
+   }
+
+   .item5 {
+    grid-column-start: line1;
+    grid-column-end: line2;
+    grid-row-start: line5;
+    grid-row-end: line5;
+    margin-top: 50px;
+    margin-left: 175px;
+
+   }
+
+   .item6 {
+    grid-column-start: line2;
+    grid-column-end: line2;
+    grid-row-start: line5;
+    grid-row-end: line5;
+    justify-self: center;
+    align-self: center;
+    margin-left: 100px;
+   }
+
+   .itemtext {
+    font-family: Roboto Mono;
+    font-style: lighter;
+    font-weight: 200;
+    font-size: 26px;
+    line-height: 34px;
+   }
+  
+.prefootmessage {
+  float:bottom;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  padding: 10px;
+  height: 750px;
+  background: #4F4E4E;
+}
+
+.smilebubbleicon {
+padding: 5px;
+margin-top: 20px;
+}
+
+.inside{
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  font-family: Roboto Mono;
+  font-style: lighter;
+  font-weight: lighter;
+  font-size: 32px;
+  line-height: 42px;
+  
+  color: #FFFFFF;
+}
+.footer {
+  float:bottom;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 195px;
+  padding: 0px;
+  margin: 0px;
+  background: #C4C4C4;
+}
+
+.inline-block2 {
+  display: inline-block;
+  margin: 25px;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 53px;
+}
+
+.copyright {
+  position: absolute;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: left;
+  margin-bottom: 50px;
+  
+  color: #000000;
+}
+@media only screen and (max-width: 600){
+.workGrid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: [line1] 1fr [line2] 1fr [line3] 1fr [line4] 1fr [line5] 1fr [line6] 1fr;
+} 
+body {
+display: flex;
+flex-direction: column;
+}
+}
